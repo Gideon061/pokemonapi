@@ -1,12 +1,10 @@
 import { ACTIONS } from '../Context/pokemonContext'
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 import { usePokemonContext } from "./usePokemonContext"
-import { usePokemonDetail } from './usePokemonDetail';
 
 
 export const usePokemonData = () =>{
     const {pokemon,dispatch} = usePokemonContext();
-    const {pokemon_detail} = usePokemonDetail()
 
     // console.log(answer)
 

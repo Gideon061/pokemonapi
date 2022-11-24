@@ -6,7 +6,7 @@ const Rayquaza = () => {
     <div>
         <div className='bullet-wrapper-1'>
         <div className='bullet-1'>
-          <img className='floating-img-handler-1' src={Rayquaza_img}></img>
+          <img className='floating-img-handler-1' alt='rayquaza' src={Rayquaza_img}></img>
         </div>
       </div>
     </div>

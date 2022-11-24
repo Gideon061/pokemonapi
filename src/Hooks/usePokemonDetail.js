@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import {  useState } from "react"
 import { useLocation } from "react-router"
 import { ACTIONS } from "../Context/pokemonContext"
 import { usePokemonContext } from "./usePokemonContext"

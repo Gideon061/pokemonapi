@@ -22,10 +22,10 @@ const Home = () => {
                         <button className='custom-button-light'><Link to='/pokedex'>Use Pokedex</Link></button>
                     </div>
                     <div className='hero-show'>
-                    {width>1024 && <img src={Gardevior_bg} className='hero-handler' />}
+                    {width>1024 && <img src={Gardevior_bg} className='hero-handler' alt='gardevoir' />}
                     {width<1024 && height > 840 && <div className='bullet-wrapper-small'>
                         <div className='bullet'>
-                            <img src={Kirlia} className='small-hero-handler' />
+                            <img src={Kirlia} alt='Kirlia' className='small-hero-handler' />
                         </div>
                     </div>}
                     </div>
@@ -38,7 +38,7 @@ const Home = () => {
             <section className='berry-section'>
                 <div className='container full-height'>
                     <div className={width < 1024 ? 'half-padding berry-flex':'middle-padding berry-flex'} >
-                        <img className='berry-img-handler' src='https://samurai-gamers.com/wp-content/uploads/2016/11/snorlax-berries.png' />
+                        <img className='berry-img-handler' alt='berry' src='https://samurai-gamers.com/wp-content/uploads/2016/11/snorlax-berries.png' />
                         <div className='berries-text'>
                         <h2>Looking for berries?</h2>
                         <button className='custom-button-light'><Link>Find Berries</Link></button>
